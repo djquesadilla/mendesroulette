@@ -22,4 +22,4 @@ mendesroulette = 11.times.map{select_player(players)}
 
 puts "Here is your Jorge Mendes squad:"
 puts "================================"
-puts mendesroulette
+mendesroulette.each{ |player| puts "- #{player}" }
